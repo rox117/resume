@@ -1,0 +1,41 @@
+body{
+	background-color: #FBFBFB;
+	margin: 0 16em 0 16em ;
+}
+h1{
+	border-bottom: 2px solid #AAA;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.indent{
+	margin-left: 5em;
+}
+
+.line{
+	border-left: 2px solid #AAA;
+	list-style: none;
+	padding-left: 1em;
+
+}
+
+.line li{
+	display: inline-block;
+}
+
+.down{
+	position: relative;
+	left: -5em;
+	top: 2em;
+}
+
+img{
+	position: absolute;
+	width: 150px;
+	height:150px ;
+	left: 70em;
+	bottom: 25em;
+	transform: rotate(-5deg);
+}
